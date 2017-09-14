@@ -92,8 +92,17 @@ footer {
   display: none;
 }
 
+.logo__text_replace {
+  color: #EAAA7F;
+  text-align: center;
+  font-size: 16px;
+}
+
 @media (min-width: 425px) {
   .logo__text {
     display: inline;
+  }
+  .logo__text_replace {
+    display: none;
   }
 }
