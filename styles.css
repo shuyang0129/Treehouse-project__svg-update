@@ -107,11 +107,6 @@ footer {
   }
 }
 
-.corgi__pic {
-  width: 170px;
-  height: 170px;
-}
-
 .nav__item {
   fill: #39add1;
 }
@@ -124,3 +119,72 @@ a:hover .nav__item {
 .nav .nav__item {
   transition: all .5s linear;
 }
+
+/*=====Corgi=====*/
+
+.corgi__pic {
+  width: 170px;
+  height: 170px;
+  margin-bottom: 16px;
+}
+
+.face_white {
+  fill: #FBFEFF;
+}
+
+.face_detail {
+  fill: #2D3339;
+}
+
+/*Red*/
+.corgi__red .ear {
+  fill: #BA8058;
+}
+
+.corgi__red .face {
+  fill: #BA8058;
+}
+
+.corgi__red .eyebrow {
+  fill: #EAAA7F;
+}
+
+/*Fawn*/
+.corgi__fawn .ear {
+  fill: #EAAA7F;
+}
+
+.corgi__fawn .face {
+  fill: #EAAA7F;
+}
+
+.corgi__fawn .eyebrow {
+  fill: #F4C6A6;
+}
+
+/*Sable*/
+.corgi__sable .ear {
+  fill: #844B24;
+}
+
+.corgi__sable .face {
+  fill: #844B24;
+}
+
+.corgi__sable .eyebrow {
+  fill: #BA8058;
+}
+
+/*Black and tan*/
+.corgi__blacktan .ear {
+  fill: #BA8058;
+}
+
+.corgi__blacktan .face {
+  fill: #52595F;
+}
+
+.corgi__blacktan .eyebrow {
+  fill: #BA8058;
+}
+
