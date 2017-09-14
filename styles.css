@@ -119,3 +119,8 @@ footer {
 a:hover .nav__item {
   fill: #111;
 }
+
+.nav,
+.nav .nav__item {
+  transition: all .5s linear;
+}
